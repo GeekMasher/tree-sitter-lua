@@ -984,16 +984,8 @@
       },
       "end": {
         "multiple": false,
-        "required": true,
+        "required": false,
         "types": [
-          {
-            "type": "\"",
-            "named": false
-          },
-          {
-            "type": "'",
-            "named": false
-          },
           {
             "type": "]]",
             "named": false
@@ -1002,16 +994,8 @@
       },
       "start": {
         "multiple": false,
-        "required": true,
+        "required": false,
         "types": [
-          {
-            "type": "\"",
-            "named": false
-          },
-          {
-            "type": "'",
-            "named": false
-          },
           {
             "type": "[[",
             "named": false

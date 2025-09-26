@@ -1628,17 +1628,8 @@
           "type": "SEQ",
           "members": [
             {
-              "type": "FIELD",
-              "name": "start",
-              "content": {
-                "type": "ALIAS",
-                "content": {
-                  "type": "STRING",
-                  "value": "\""
-                },
-                "named": false,
-                "value": "\""
-              }
+              "type": "STRING",
+              "value": "\""
             },
             {
               "type": "FIELD",
@@ -1662,17 +1653,8 @@
               }
             },
             {
-              "type": "FIELD",
-              "name": "end",
-              "content": {
-                "type": "ALIAS",
-                "content": {
-                  "type": "STRING",
-                  "value": "\""
-                },
-                "named": false,
-                "value": "\""
-              }
+              "type": "STRING",
+              "value": "\""
             }
           ]
         },
@@ -1680,17 +1662,8 @@
           "type": "SEQ",
           "members": [
             {
-              "type": "FIELD",
-              "name": "start",
-              "content": {
-                "type": "ALIAS",
-                "content": {
-                  "type": "STRING",
-                  "value": "'"
-                },
-                "named": false,
-                "value": "'"
-              }
+              "type": "STRING",
+              "value": "'"
             },
             {
               "type": "FIELD",
@@ -1714,17 +1687,8 @@
               }
             },
             {
-              "type": "FIELD",
-              "name": "end",
-              "content": {
-                "type": "ALIAS",
-                "content": {
-                  "type": "STRING",
-                  "value": "'"
-                },
-                "named": false,
-                "value": "'"
-              }
+              "type": "STRING",
+              "value": "'"
             }
           ]
         }

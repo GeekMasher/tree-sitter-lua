@@ -371,20 +371,20 @@ module.exports = grammar({
     _quote_string: ($) =>
       choice(
         seq(
-          field('start', alias('"', '"')),
+          "\"",
           field(
             'content',
             optional(alias($._doublequote_string_content, $.string_content))
           ),
-          field('end', alias('"', '"'))
+          "\"",
         ),
         seq(
-          field('start', alias("'", "'")),
+          "\'",
           field(
             'content',
             optional(alias($._singlequote_string_content, $.string_content))
           ),
-          field('end', alias("'", "'"))
+          "\'",
         )
       ),
 
